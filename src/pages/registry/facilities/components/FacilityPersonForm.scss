@@ -1,0 +1,17 @@
+.facility-person-form {
+  margin-top: 20px;
+
+  .base-container + .base-container {
+    margin-top: 20px;
+  }
+
+  .form-field label[for$='.docDate'],
+  .form-field label[for$='.docName'] {
+    line-height: 18px;
+    margin: 6px 0 8px 0;
+  }
+
+  .form-control-buttons {
+    margin-top: 0;
+  }
+}

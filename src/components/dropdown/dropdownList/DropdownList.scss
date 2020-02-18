@@ -1,0 +1,21 @@
+@import "styles/mixins";
+
+.menu-list {
+  max-height: 350px;
+  overflow-y: auto;
+
+  .dropdown-item {
+    @include table-text($small, normal, $evil-gray);
+    padding: 6px 16px;
+    white-space: pre-wrap;
+    background-color: unset;
+    border: none;
+    height: auto;
+    cursor: pointer;
+  }
+
+  .dropdown-item_empty {
+    cursor: default;
+    font-style: italic;
+  }
+}

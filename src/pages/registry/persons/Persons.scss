@@ -1,0 +1,92 @@
+@import 'styles/mixins';
+
+.registry-persons {
+  @include medium-text(13px, 20px);
+  margin: 0 20px 20px 20px;
+
+  .table-component {
+    min-height: 352px;
+  }
+
+  .registry-filter-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .registry-persons_switcher {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      li {
+        line-height: 26px;
+      }
+
+      li + li {
+        margin-left: 20px;
+      }
+
+      li:first-child {
+        border-left: 1px solid $davy-gray;
+        padding-left: 30px;
+        margin-left: 30px;
+      }
+
+      li:last-child {
+        border-right: 1px solid $davy-gray;
+        padding-right: 30px;
+      }
+
+      a {
+        color: $evil-gray;
+
+        &:hover {
+          color: $bright-blue;
+        }
+
+        &:focus {
+          color: $bright-blue;
+        }
+      }
+
+      .registry-persons_switcher_is-active {
+        a {
+          color: $bright-blue;
+        }
+      }
+    }
+
+
+    .list-filters {
+      flex-grow: 1;
+      margin-top: 0;
+      margin-left: 20px;
+
+      .filters-search {
+        margin-left: auto;
+      }
+    }
+  }
+
+  .registry-filter-bar_search {
+    height: 30px;
+  }
+
+  .rectangle {
+    width: 1px;
+    height: 30px;
+    background-color: $fog-gray;
+    margin: auto 0;
+  }
+  .add-trainer {
+    @include text($small, 18px, $white, 500);
+    height: 30px;
+    border-radius: 4px;
+    background-color: $nestea-light;
+    text-align: right;
+  }
+
+  .button.add-trainer:hover {
+    color: $white;
+  }
+}

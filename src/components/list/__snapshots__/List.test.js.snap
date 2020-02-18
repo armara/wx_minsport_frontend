@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List /> renders correctly default mock list 1`] = `
+<ul
+  className="base-list"
+  id={null}
+>
+  <li
+    className=""
+  >
+    <div>
+      <h4>
+        Название контракта
+      </h4>
+    </div>
+    ---
+  </li>
+  <li
+    className=""
+  >
+    <div>
+      <h4>
+        Описание контракта
+      </h4>
+    </div>
+    ---
+  </li>
+  <li
+    className=""
+  >
+    <div>
+      <h4>
+        Название организации
+      </h4>
+    </div>
+    ---
+  </li>
+  <li
+    className=""
+  >
+    <div>
+      <h4>
+        Тип организации
+      </h4>
+    </div>
+    ---
+  </li>
+  <li
+    className=""
+  >
+    <div>
+      <h4>
+        ИНН
+      </h4>
+    </div>
+    ---
+  </li>
+  <li
+    className=""
+  >
+    <div>
+      <h4>
+        Вид спорта
+      </h4>
+    </div>
+    ---
+  </li>
+  <li
+    className=""
+  >
+    <div>
+      <h4>
+        Классификатор договора
+      </h4>
+    </div>
+    <span>
+      contractTitle1
+    </span>
+  </li>
+  <li
+    className=""
+  >
+    <div>
+      <h4>
+        Дата заключения договора
+      </h4>
+    </div>
+    ---
+  </li>
+  <li
+    className=""
+  >
+    <div>
+      <h4>
+        Дата окончания договора
+      </h4>
+    </div>
+    <span>
+      10
+    </span>
+  </li>
+  <li
+    className=""
+  >
+    <hr />
+  </li>
+</ul>
+`;
+
+exports[`<List /> renders correctly default props 1`] = `
+<ul
+  className="base-list"
+  id={null}
+>
+  <li
+    className="base-list_not-found"
+  >
+    Не найдено
+  </li>
+</ul>
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FileRow /> renders correctly default props 1`] = `
+Array [
+  <span
+    className="file-row_file-block"
+  >
+    <i
+      className="ic-pdf"
+    />
+    <span>
+      Peter's embassy declaration
+    </span>
+  </span>,
+  <button
+    className="file-row_button button base-button"
+    disabled={false}
+    id={null}
+    onClick={[Function]}
+    title=""
+    type="button"
+  >
+    
+    button
+  </button>,
+]
+`;

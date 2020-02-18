@@ -1,0 +1,14 @@
+@import 'styles/mixins';
+.page-header {
+  .add-trainer {
+    @include text($small, 18px, $white, 500);
+    height: 30px;
+    border-radius: 4px;
+    background-color: $nestea-light;
+    text-align: right;
+  }
+
+  .button.add-trainer:hover {
+    color: $white;
+  }
+}

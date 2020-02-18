@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> renders correctly default props 1`] = `
+<div
+  className="foundation-card"
+>
+  <button
+    className="is-white back-button button base-button"
+    disabled={false}
+    id={null}
+    onClick={[Function]}
+    title=""
+    type="button"
+  >
+    <span
+      className="icon"
+    >
+      <i
+        className="ic-arrow-back"
+      />
+    </span>
+    Загрузка...
+  </button>
+  <div
+    className="foundation-card_content"
+  >
+    <div>
+      <div
+        className="base-container"
+      >
+        
+        <ul
+          className="base-list"
+          id={null}
+        >
+          <li
+            className=""
+          >
+            <div>
+              <h4>
+                Название контракта
+              </h4>
+            </div>
+            ---
+          </li>
+          <li
+            className=""
+          >
+            <div>
+              <h4>
+                Описание контракта
+              </h4>
+            </div>
+            ---
+          </li>
+          <li
+            className=""
+          >
+            <div>
+              <h4>
+                Название организации
+              </h4>
+            </div>
+            ---
+          </li>
+          <li
+            className=""
+          >
+            <div>
+              <h4>
+                Тип организации
+              </h4>
+            </div>
+            ---
+          </li>
+          <li
+            className=""
+          >
+            <div>
+              <h4>
+                ИНН
+              </h4>
+            </div>
+            ---
+          </li>
+          <li
+            className=""
+          >
+            <div>
+              <h4>
+                Вид спорта
+              </h4>
+            </div>
+            ---
+          </li>
+          <li
+            className=""
+          >
+            <div>
+              <h4>
+                Классификатор договора
+              </h4>
+            </div>
+            ---
+          </li>
+          <li
+            className=""
+          >
+            <div>
+              <h4>
+                Дата заключения договора
+              </h4>
+            </div>
+            ---
+          </li>
+          <li
+            className=""
+          >
+            <div>
+              <h4>
+                Дата окончания договора
+              </h4>
+            </div>
+            ---
+          </li>
+          <li
+            className=""
+          >
+            <hr />
+          </li>
+        </ul>
+        <div
+          className="files-list"
+        >
+          <h4>
+            Файлы
+          </h4>
+          <ul
+            className="base-list"
+            id={null}
+          >
+            <li
+              className=""
+            >
+              <span
+                className="file-row_file-block"
+              >
+                <i
+                  className="ic-pdf"
+                />
+                <span>
+                  
+                </span>
+              </span>
+              <button
+                className="file-row_button button base-button"
+                disabled={false}
+                id={null}
+                onClick={[Function]}
+                title=""
+                type="button"
+              >
+                
+                Удалить
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        className="base-container train-zone-container"
+      >
+        
+        <div>
+          <h4>
+            Тренировочная зона
+          </h4>
+          <span>
+            
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

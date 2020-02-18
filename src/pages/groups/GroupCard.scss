@@ -1,0 +1,44 @@
+@import 'styles/mixins';
+
+.group-card {
+  display: flex;
+  flex-direction: column;
+
+  .columns {
+    padding: 20px;
+
+    .column:first-child {
+      .base-container {
+        padding-top: 20px;
+      }
+
+      .base-container_title {
+        margin-top: -20px;
+        margin-bottom: 20px;
+      }
+
+      .base-container + .base-container {
+        margin-top: 20px;
+      }
+    }
+
+    .column:last-child {
+      > .base-container {
+        height: 100%;
+        padding-top: 20px;
+
+        .base-container_title {
+          margin-top: -20px;
+          margin-bottom: 20px;
+        }
+
+        .base-list {
+          hr {
+            margin-top: 0;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}

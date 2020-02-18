@@ -1,0 +1,10 @@
+.list-item-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 56px;
+
+  i {
+    cursor: pointer;
+  }
+}

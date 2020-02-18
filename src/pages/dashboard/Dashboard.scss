@@ -1,0 +1,146 @@
+@import "styles/mixins";
+
+.base-dashboard {
+
+  .table-component {
+    min-height: max-content;
+    margin-top: 0;
+  }
+
+  %list-row {
+    margin-left: -20px;
+    width: calc(100% + 40px);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid $smoke-white;
+
+    margin-top: 0;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .dashboard-content.columns {
+    margin: 0 20px 20px 0;
+  }
+
+  .columns {
+    .column {
+      padding-top: 0;
+      margin-top: 20px;
+      margin-left: 20px;
+      height: auto;
+
+      h5 {
+        padding-left: 10px;
+      }
+    }
+
+    .dashboard-content_contracts-table {
+      width: calc(100% + 40px);
+      margin-left: -20px;
+      height: calc(100% + 40px);
+      margin-bottom: -20px;
+
+      .ReactTable {
+        border: none;
+
+        @include nav-header-text($small, '18px', $black);
+
+        .rt-td, .rt-th {
+          border-right: none;
+          padding: 10px;
+        }
+      }
+
+      td {
+        @include nav-header-text($small, '60px', $black);
+        border-top: none;
+      }
+
+      th {
+        border-bottom: solid $smoke-white 1px;
+      }
+    }
+
+    .dashboard-content_courts-list {
+      height: 100%;
+
+      li {
+        @extend %list-row;
+      }
+
+      h4 {
+        @include nav-header-text($small, '18px', $black);
+      }
+      
+    }
+
+    .dashboard-button-add {
+      @include text($small, 18px, $white, 500);
+      height: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-radius: 4px;
+      margin-top: 20px;
+      background-color: $nestea-light;
+      text-align: right;
+    }
+
+    .dashboard-content_staff-list {
+      li {
+        @extend %list-row;
+
+        &:hover {
+          background-color: $alabaster;
+          cursor: pointer;
+        }
+
+        a {
+          display: flex;
+          align-items: center;
+          height: 100%;
+          width: 100%;
+          font-size: 13px;
+
+          span {
+            @include nav-header-text($small, '18px', $black);
+          }
+        }
+      }
+    }
+  }
+
+  .dashboard-content_button {
+    @include nav-header-text('9px', '18px', $white);
+    width: 130px;
+    margin-top: 20px;
+    margin-left: auto;
+    background-color: $nestea-light;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .dashboard-content_button:hover {
+    color: $white;
+    background-color: $nestea;
+  }
+
+  .dashboard-content_button:focus {
+    color: $white;
+  }
+
+  .rating_wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

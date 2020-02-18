@@ -1,0 +1,8 @@
+@import "styles/mixins";
+
+.table-cell-text {
+  @include medium-text(13px,20px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

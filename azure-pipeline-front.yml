@@ -1,0 +1,33 @@
+variables:
+  - group: MSCRM
+  - name: appName
+    value: frontend
+
+name: $(appName)-$(build.sourceBranchName)-$(Date:yyyyMMdd)$(Rev:.rr)
+
+trigger:
+  branches:
+    include:
+      - dev
+      - master
+  paths:
+    include:
+      - /frontend/*
+
+pr:
+  branches:
+    include:
+      - dev
+      - master
+  paths:
+    include:
+      - /frontend/*
+
+pool: 'Test NA'
+
+steps:
+  - template: /azure-pipelines-front-template.yml
+    parameters:
+      appName: $(appName)
+      botToken: $(telegramBotToken)
+      botChatId: $(telegramBotChatId)

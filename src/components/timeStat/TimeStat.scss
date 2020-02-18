@@ -1,0 +1,42 @@
+@import 'styles/mixins';
+
+.time-stat {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+  * {
+    @include roboto-regular-text(12px,30px,$evil-gray);
+  }
+
+  & > * {
+    margin-left: 9px;
+  }
+
+  &.time-stat_selected {
+    span {
+      color: $text-active;
+    }
+  }
+}
+
+.time-stats_block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.time-stats_block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.time-stats_block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

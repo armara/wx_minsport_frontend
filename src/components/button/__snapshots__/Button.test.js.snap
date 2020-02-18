@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> renders correctly default props 1`] = `
+<button
+  className="button base-button"
+  disabled={false}
+  id={null}
+  onClick={[Function]}
+  title=""
+  type="button"
+>
+  
+  <p>
+    Peter Great Embassy
+  </p>
+</button>
+`;

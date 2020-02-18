@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders correctly 1`] = `
+<header
+  className="app-header"
+>
+  <div
+    className="header_profile-block"
+  >
+    <button
+      className="header_workplace-title button base-button"
+      disabled={false}
+      id={null}
+      onClick={[Function]}
+      title=""
+      type="button"
+    >
+      
+      Загрузка...
+    </button>
+  </div>
+</header>
+`;

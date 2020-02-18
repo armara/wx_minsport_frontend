@@ -1,0 +1,15 @@
+@import "styles/mixins";
+
+.add-foundation {
+  @include text($small, 18px, $white, 500);
+  height: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  background-color: $nestea-light;
+  text-align: right;
+}
+
+.button.add-foundation:hover {
+  color: $white;
+}

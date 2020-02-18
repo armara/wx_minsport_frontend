@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FilesList /> renders correctly default props 1`] = `
+<div
+  className="files-list"
+>
+  <h4>
+    Файлы
+  </h4>
+  <ul
+    className="base-list"
+    id={null}
+  >
+    <li
+      className=""
+    >
+      <span
+        className="file-row_file-block"
+      >
+        <i
+          className="ic-pdf"
+        />
+        <span>
+          Договор
+        </span>
+      </span>
+      <button
+        className="file-row_button button base-button"
+        disabled={false}
+        id={null}
+        onClick={[Function]}
+        title=""
+        type="button"
+      >
+        
+        Удалить
+      </button>
+    </li>
+    <li
+      className=""
+    >
+      <span
+        className="file-row_file-block"
+      >
+        <i
+          className="ic-pdf"
+        />
+        <span>
+          Приложение к договору
+        </span>
+      </span>
+      <button
+        className="file-row_button button base-button"
+        disabled={false}
+        id={null}
+        onClick={[Function]}
+        title=""
+        type="button"
+      >
+        
+        Удалить
+      </button>
+    </li>
+  </ul>
+</div>
+`;

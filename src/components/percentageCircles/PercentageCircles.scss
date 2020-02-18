@@ -1,0 +1,15 @@
+.circles_wrapper{
+    flex-direction: row;
+
+    circle {
+        transition: stroke-dashoffset 0.35s;
+        transform: rotate(120deg);
+        transform-origin: 50% 50%;
+    }
+
+    .progress-text {
+        display: inline;
+        position: relative;
+        top: -30%;
+    }
+}

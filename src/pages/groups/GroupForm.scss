@@ -1,0 +1,86 @@
+@import 'styles/mixins';
+
+.group-edit_content,
+.group-add_content {
+  .base-form {
+    display: flex;
+    flex-flow: column;
+
+    .dropdown-item {
+      border-radius: 0;
+    }
+
+    & > div:first-child {
+      display: flex;
+      flex-flow: row nowrap;
+
+      & > * {
+        flex-grow: 1;
+        max-width: 55%;
+      }
+
+      & > * + * {
+        margin-left: 20px;
+      }
+
+      .base-container_title {
+        padding-left: 20px;
+      }
+
+      .form-field_placeholder {
+        @include roboto-regular-text(12px, 16px, $brown-gray);
+      }
+    }
+
+    .add-group_content_sportsmen {
+      padding-bottom: 0;
+
+      .base-container_title::after {
+        content: '*';
+        margin-left: 4px;
+        color: #ff6f79;
+      }
+
+      .form-field {
+        height: 100%;
+
+        & > div {
+          height: 100%;
+        }
+      }
+
+      .choice-list {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 5px;
+
+        & > h5 {
+          line-height: 30px;
+          padding-top: 20px;
+        }
+
+        & + p {
+          bottom: 10px;
+        }
+      }
+    }
+
+    .form-some-blocks {
+      & > div {
+        width: 50%;
+      }
+    }
+
+    .form-control-buttons {
+      .is-success {
+        width: auto;
+      }
+    }
+
+    .form-field > label[for='membersMax'] {
+      line-height: 18px;
+      margin: 6px 0 8px 0;
+    }
+  }
+}

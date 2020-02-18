@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Link /> renders correctly mock props 1`] = `
+<a
+  className="embassy_konigsberg"
+  href="/"
+  onClick={[Function]}
+  rel="noreferrer noopener"
+  target="_self"
+>
+  <span>
+    Peters Grand Embassy
+  </span>
+</a>
+`;
+
+exports[`<Link /> renders correctly with default props 1`] = `
+<a
+  className=""
+  href="test"
+  onClick={[Function]}
+  rel="noreferrer noopener"
+  target="_blank"
+>
+  
+</a>
+`;

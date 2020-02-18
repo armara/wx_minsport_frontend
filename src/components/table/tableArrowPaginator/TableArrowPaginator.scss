@@ -1,0 +1,37 @@
+@import "styles/mixins";
+
+.table-arrow-paginator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 60px;
+
+  & > span {
+    display: flex;
+    align-items: center;
+
+    button {
+      border-color: white;
+      width: 50px;
+    }
+
+    button + button {
+      margin-left: 10px;
+    }
+
+    button.base-button {
+      .icon:first-child {
+        margin-right: 0;
+        margin-left: 0;
+      }
+    }
+
+    span {
+      @include table-text(13px, 4.62, $brown-gray);
+
+      white-space: nowrap;
+      margin-right: 47px;
+    }
+  }
+}

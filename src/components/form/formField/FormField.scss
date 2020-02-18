@@ -1,0 +1,44 @@
+@import 'styles/mixins';
+
+.form-field {
+  display: flex;
+  flex-flow: column;
+
+  & > label,
+  & label {
+    @include form-label-text();
+    display: flex;
+    align-items: center;
+
+    & > .form-field_required:after {
+      content: '*';
+      margin-left: 4px;
+      color: $purple-red;
+    }
+  }
+
+  & > div {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+
+    &.form-field_with-error {
+      padding-bottom: 20px;
+      position: relative;
+    }
+
+    & > p {
+      @include ellipsis();
+      @include roboto-regular-text($small, 14px, $purple-red);
+      width: inherit;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+
+  &.form-field_disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+}

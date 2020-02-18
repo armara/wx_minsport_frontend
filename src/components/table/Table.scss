@@ -1,0 +1,62 @@
+@import "styles/mixins";
+
+.table-component {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 5px;
+  //min-height: 812px;
+
+  .ReactTable {
+    width: 100%;
+    border-collapse: separate;
+    border: 1px solid $smoke-white;
+    border-radius: 6px;
+  }
+
+  .rt-tbody, .rt-thead {
+    .rt-td, .rt-th {
+      border-right: none;
+    }
+  }
+
+  .rt-tbody {
+    .rt-tr {
+      cursor: pointer;
+
+      &:hover {
+        background-color: $alabaster;
+        border-color: transparent;
+      }
+    }
+  }
+
+  .rt-tr {
+    min-height: 60px;
+    align-items: center;
+
+    &.-even {
+      background-color: $alice-blue;
+    }
+
+    img {
+      margin-right: 10px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+
+  .rt-thead.-header {
+    .rt-tr {
+      @include table-text($medium, 60px, $soft-steel);
+    }
+    box-shadow: none;
+    border-bottom: 1px solid $smoke-white;
+  }
+
+  .rt-tr {
+    .rt-th:first-child,
+    .rt-td:first-child {
+      padding-left: 20px;
+    }
+  }
+}

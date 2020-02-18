@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> renders correctly default props 1`] = `
+<input
+  className="base-input input"
+  disabled={false}
+  onChange={[Function]}
+  placeholder=""
+  type="text"
+  value="hohenzollern"
+/>
+`;

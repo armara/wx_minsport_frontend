@@ -1,0 +1,13 @@
+@import "styles/colors";
+
+.contracts-table-row_paid {
+  color: $nestea;
+}
+
+.contracts-table-row_not-paid {
+  color: $purple-red;
+}
+
+.contracts-table-row_expires {
+  color: $yellow-orange;
+}

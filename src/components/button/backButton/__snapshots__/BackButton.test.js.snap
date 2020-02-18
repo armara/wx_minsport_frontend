@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BackButton /> renders correctly default props 1`] = `
+<button
+  className="is-white back-button button base-button"
+  disabled={false}
+  id={null}
+  onClick={[Function]}
+  title=""
+  type="button"
+>
+  <span
+    className="icon"
+  >
+    <i
+      className="ic-arrow-back"
+    />
+  </span>
+  Вернуться назад
+</button>
+`;

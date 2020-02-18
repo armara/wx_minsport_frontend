@@ -1,0 +1,54 @@
+@import "styles/mixins";
+
+.schedule-edit-form {
+  hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .form-some-blocks > div {
+    width: 50%;
+  }
+
+  .form-some-blocks > div + div {
+    margin-left: 7px;
+  }
+
+  button.dropdown-item {
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 0;
+
+    & > img {
+      height: 30px;
+      margin-right: 10px;
+    }
+  }
+
+  button.dropdown-trigger > div {
+    display: flex;
+    align-items: center;
+    height: 40px;
+
+    & > img {
+      height: 30px;
+      margin-right: 10px;
+    }
+  }
+
+  .days-checkboxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .days-checkboxes_row {
+      margin-top: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .days-checkboxes_row + .days-checkboxes_row {
+      margin-left: 14px;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@import 'styles/mixins';
+
+.files-list {
+  h4 {
+    @include nav-header-text($x-small, '18px', $evil-gray);
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    .tooltip-icon {
+      display: inline-flex;
+      position: relative;
+      top: 5px;
+    }
+  }
+
+  button + div {
+    display: inline-flex;
+    margin-top: 8px;
+  }
+
+  .contract-files {
+    @include contracts-block();
+  }
+
+  input[type='file'] {
+    display: none;
+  }
+}

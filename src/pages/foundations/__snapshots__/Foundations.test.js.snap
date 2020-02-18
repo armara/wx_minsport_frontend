@@ -1,0 +1,527 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Foundations /> renders correctly default props 1`] = `
+Array [
+  <div
+    className="page-header"
+  >
+    <h3>
+      Перечень договоров
+    </h3>
+  </div>,
+  <div
+    className="modal base-modal"
+  >
+    <div
+      className="modal-background"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex="0"
+    />
+    <div
+      className="modal-content"
+    >
+      <div
+        className="box"
+      >
+        <span
+          className="title is-4"
+        >
+          Удалить договор?
+        </span>
+        <button
+          className="is-success control-button-save button base-button"
+          disabled={false}
+          id={null}
+          onClick={[Function]}
+          title=""
+          type="button"
+        >
+          
+          Да
+        </button>
+        <button
+          className="control-buttons_cancel button base-button"
+          disabled={false}
+          id={null}
+          onClick={[Function]}
+          title=""
+          type="button"
+        >
+          
+          Не удалять
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="foundations-content"
+  >
+    <div
+      className="page-header"
+    >
+      <h3>
+        Перечень договоров
+      </h3>
+      <button
+        className="add-foundation button base-button"
+        disabled={false}
+        id={null}
+        onClick={[Function]}
+        title=""
+        type="button"
+      >
+        <span
+          className="icon"
+        >
+          <i
+            className="ic-add"
+          />
+        </span>
+        <span>
+          Добавить договор
+        </span>
+      </button>
+    </div>
+    <div
+      className="modal base-modal"
+    >
+      <div
+        className="modal-background"
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
+        tabIndex="0"
+      />
+      <div
+        className="modal-content"
+      >
+        <div
+          className="box"
+        >
+          <span
+            className="title is-4"
+          >
+            Удалить договор?
+          </span>
+          <button
+            className="is-success control-button-save button base-button"
+            disabled={false}
+            id={null}
+            onClick={[Function]}
+            title=""
+            type="button"
+          >
+            
+            Да
+          </button>
+          <button
+            className="control-buttons_cancel button base-button"
+            disabled={false}
+            id={null}
+            onClick={[Function]}
+            title=""
+            type="button"
+          >
+            
+            Не удалять
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="foundations-content"
+    >
+      <div
+        className="foundations-list"
+      >
+        <div
+          className="list-filters"
+        >
+          <div
+            className="search-input control has-icons-left filters-search"
+          >
+            <input
+              className="input is-small base-input input"
+              disabled={false}
+              onChange={[Function]}
+              placeholder="Поиск договоров"
+              type="text"
+              value=""
+            />
+            <span
+              className="icon is-small is-left"
+            >
+              <i
+                className="ic-search"
+              />
+            </span>
+          </div>
+          <div
+            className="dropdown"
+            id="filters-1"
+          >
+            <div
+              className="dropdown-trigger"
+            >
+              <p
+                className="control has-icons-right has-icons-left input-trigger"
+              >
+                <input
+                  className="is-small base-input input"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  placeholder="Выбрать тип организации"
+                  type="text"
+                  value="Все типы организаций"
+                />
+                <span
+                  className="icon is-small is-left"
+                >
+                  <i
+                    className="ic-place"
+                  />
+                </span>
+                <span
+                  className="icon is-small is-right"
+                >
+                  <i
+                    className="ic-keyboard-arrow-down"
+                  />
+                </span>
+              </p>
+            </div>
+            <div
+              className="dropdown-menu"
+              role="menu"
+            >
+              <ul
+                className="dropdown-content menu-list"
+              >
+                <button
+                  className="dropdown-item button base-button"
+                  disabled={false}
+                  id={null}
+                  onClick={[Function]}
+                  title=""
+                  type="button"
+                >
+                  
+                  Все типы организаций
+                </button>
+              </ul>
+            </div>
+          </div>
+          <div
+            className="dropdown"
+            id="filters-2"
+          >
+            <div
+              className="dropdown-trigger"
+            >
+              <p
+                className="control has-icons-right has-icons-left input-trigger"
+              >
+                <input
+                  className="is-small base-input input"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  placeholder="Выбрать вид спорта"
+                  type="text"
+                  value="Все виды спорта"
+                />
+                <span
+                  className="icon is-small is-left"
+                >
+                  <i
+                    className="ic-place"
+                  />
+                </span>
+                <span
+                  className="icon is-small is-right"
+                >
+                  <i
+                    className="ic-keyboard-arrow-down"
+                  />
+                </span>
+              </p>
+            </div>
+            <div
+              className="dropdown-menu"
+              role="menu"
+            >
+              <ul
+                className="dropdown-content menu-list"
+              >
+                <button
+                  className="dropdown-item button base-button"
+                  disabled={false}
+                  id={null}
+                  onClick={[Function]}
+                  title=""
+                  type="button"
+                >
+                  
+                  Все виды спорта
+                </button>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          className="table-component"
+        >
+          <div
+            className="ReactTable"
+            style={Object {}}
+          >
+            <div
+              className="rt-table"
+              role="grid"
+            >
+              <div
+                className="rt-thead -header"
+                style={
+                  Object {
+                    "minWidth": "680px",
+                  }
+                }
+              >
+                <div
+                  className="rt-tr"
+                  role="row"
+                >
+                  <div
+                    className="rt-th"
+                    onClick={[Function]}
+                    role="columnheader"
+                    style={
+                      Object {
+                        "flex": "100 0 auto",
+                        "maxWidth": null,
+                        "width": "100px",
+                      }
+                    }
+                    tabIndex="-1"
+                  >
+                    <div
+                      className=""
+                    >
+                      Юридическое название договора
+                    </div>
+                  </div>
+                  <div
+                    className="rt-th"
+                    onClick={[Function]}
+                    role="columnheader"
+                    style={
+                      Object {
+                        "flex": "100 0 auto",
+                        "maxWidth": null,
+                        "width": "100px",
+                      }
+                    }
+                    tabIndex="-1"
+                  >
+                    <div
+                      className=""
+                    >
+                      Тип договора
+                    </div>
+                  </div>
+                  <div
+                    className="rt-th"
+                    onClick={[Function]}
+                    role="columnheader"
+                    style={
+                      Object {
+                        "flex": "100 0 auto",
+                        "maxWidth": null,
+                        "width": "100px",
+                      }
+                    }
+                    tabIndex="-1"
+                  >
+                    <div
+                      className=""
+                    >
+                      Заказчик
+                    </div>
+                  </div>
+                  <div
+                    className="rt-th"
+                    onClick={[Function]}
+                    role="columnheader"
+                    style={
+                      Object {
+                        "flex": "100 0 auto",
+                        "maxWidth": null,
+                        "width": "100px",
+                      }
+                    }
+                    tabIndex="-1"
+                  >
+                    <div
+                      className=""
+                    >
+                      ИНН
+                    </div>
+                  </div>
+                  <div
+                    className="rt-th"
+                    onClick={[Function]}
+                    role="columnheader"
+                    style={
+                      Object {
+                        "flex": "100 0 auto",
+                        "maxWidth": null,
+                        "width": "100px",
+                      }
+                    }
+                    tabIndex="-1"
+                  >
+                    <div
+                      className=""
+                    >
+                      Вид спорта
+                    </div>
+                  </div>
+                  <div
+                    className="rt-th"
+                    onClick={[Function]}
+                    role="columnheader"
+                    style={
+                      Object {
+                        "flex": "100 0 auto",
+                        "maxWidth": null,
+                        "width": "100px",
+                      }
+                    }
+                    tabIndex="-1"
+                  >
+                    <div
+                      className=""
+                    >
+                      Регистрация
+                    </div>
+                  </div>
+                  <div
+                    className="rt-th"
+                    onClick={[Function]}
+                    role="columnheader"
+                    style={
+                      Object {
+                        "flex": "80 0 auto",
+                        "maxWidth": "80px",
+                        "width": "80px",
+                      }
+                    }
+                    tabIndex="-1"
+                  >
+                    <div
+                      className=""
+                    >
+                       
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="rt-tbody"
+                style={
+                  Object {
+                    "minWidth": "680px",
+                  }
+                }
+              />
+            </div>
+            <div
+              className="rt-noData"
+            >
+              Нет данных
+            </div>
+            <div
+              className="-loading"
+            >
+              <div
+                className="-loading-inner"
+              >
+                Загрузка...
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="table-arrow-paginator"
+        >
+          <div>
+            <button
+              className="add-foundation button base-button"
+              disabled={false}
+              id={null}
+              onClick={[Function]}
+              title=""
+              type="button"
+            >
+              <span
+                className="icon"
+              >
+                <i
+                  className="ic-add"
+                />
+              </span>
+              <span>
+                Добавить договор
+              </span>
+            </button>
+          </div>
+          <span>
+            <span>
+              1 - 0 из 0
+            </span>
+            <button
+              className="is-small button base-button disabled"
+              disabled={true}
+              id={null}
+              onClick={[Function]}
+              title=""
+              type="button"
+            >
+              <span
+                className="icon is-small"
+              >
+                <i
+                  className="ic-arrow-back"
+                />
+              </span>
+              
+            </button>
+            <button
+              className="is-small button base-button"
+              disabled={false}
+              id={null}
+              onClick={[Function]}
+              title=""
+              type="button"
+            >
+              <span
+                className="icon is-small"
+              >
+                <i
+                  className="ic-arrow-forward"
+                />
+              </span>
+              
+            </button>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

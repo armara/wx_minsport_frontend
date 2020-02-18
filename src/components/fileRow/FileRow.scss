@@ -1,0 +1,19 @@
+@import "styles/mixins";
+
+.file-row_file-block {
+  display: flex;
+  align-items: center;
+
+  span {
+    @include roboto-regular-text(12px, 18px, $evil-gray);
+  }
+
+  i {
+    margin-right: 8px;
+  }
+}
+
+.file-row_button {
+  @include form-reset-button();
+  @include roboto-regular-text();
+}

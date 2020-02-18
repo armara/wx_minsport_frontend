@@ -1,0 +1,106 @@
+@import 'styles/mixins';
+
+.schedule-calendar_selected-event {
+  margin-left: 20px;
+  margin-right: 20px;
+
+  .ic-edit-round {
+    cursor: pointer;
+  }
+
+  & > hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  & > span {
+    display: flex;
+    flex-direction: row;
+
+    & > i {
+      width: 23px;
+    }
+
+    & > div {
+      display: flex;
+      flex-flow: row;
+      flex-grow: 1;
+      margin-left: 10px;
+    }
+
+    .ic-insert-drive-file {
+      height: 25px;
+      margin-top: 2px;
+    }
+
+    .ic-insert-drive-file + div {
+      & > span {
+        display: flex;
+        flex-flow: column;
+
+        h4 {
+          @include nav-header-text($x-large, '30px', $evil-gray);
+        }
+
+        h4 + p {
+          @include nav-header-text($small, '30px', $soft-steel);
+        }
+      }
+
+      & > div {
+        display: flex;
+        margin-left: auto;
+
+        i + i {
+          margin-left: 5px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    i + div > h5 {
+      @include nav-header-text($small, '30px', $davy-gray);
+    }
+
+    .ic-star + div {
+      img {
+        margin-left: auto;
+        margin-right: 9px;
+        width: 30px;
+        height: 30px;
+
+        & + span {
+          @include nav-header-text($small, '30px', $black);
+        }
+      }
+    }
+
+    .ic-place + div {
+      & > span {
+        @include nav-header-text($small, '30px', $davy-gray);
+        margin-left: auto;
+      }
+    }
+
+    .ic-schedule {
+      height: 30px;
+    }
+
+    .ic-schedule + div {
+      display: flex;
+      flex-flow: column;
+
+      & > span {
+        display: flex;
+
+        h6 {
+          text-transform: capitalize;
+        }
+
+        h6 + p {
+          margin-left: auto;
+        }
+      }
+    }
+  }
+}

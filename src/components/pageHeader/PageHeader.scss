@@ -1,0 +1,15 @@
+@import "styles/mixins";
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2px 20px;
+  border-bottom: 1px solid $line-separator;
+
+  h3 {
+    @include page-header-text();
+    white-space: nowrap;
+  }
+}

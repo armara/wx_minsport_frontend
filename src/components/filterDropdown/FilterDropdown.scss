@@ -1,0 +1,14 @@
+@import 'styles/mixins';
+
+.input-trigger {
+  .base-input {
+    box-shadow: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    &.input::placeholder {
+      color: $red-gray;
+    }
+  }
+}

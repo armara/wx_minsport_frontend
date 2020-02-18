@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DropdownTrigger /> renders correctly default props 1`] = `
+<button
+  className="dropdown-trigger button base-button"
+  disabled={false}
+  id={null}
+  onClick={[Function]}
+  title=""
+  type="button"
+>
+  
+  <div>
+    Peter the Great
+  </div>
+  <span
+    className="icon is-small"
+  >
+    <i
+      aria-hidden="true"
+      className="ic-keyboard-arrow-down"
+    />
+  </span>
+</button>
+`;

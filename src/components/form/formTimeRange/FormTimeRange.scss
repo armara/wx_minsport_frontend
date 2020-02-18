@@ -1,0 +1,22 @@
+@import "styles/mixins";
+
+.form-time-range {
+  display: flex;
+
+  div {
+    width: 100%;
+  }
+
+  & > div {
+    width: 100%;
+    flex-grow: 1;
+  }
+
+  & > div + div {
+    margin-left: 10px;
+  }
+
+  label > .tooltip-icon {
+    width: auto;
+  }
+}

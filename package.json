@@ -1,0 +1,109 @@
+{
+  "name": "minsport",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --watchAll=false",
+    "test-cov": "react-scripts test --coverage --collectCoverageFrom=src/**/*.js --watchAll=false",
+    "test-update": "react-scripts test --watchAll=false -u",
+    "eject": "react-scripts eject",
+    "lint": "yarn eslint src/ --ext .js,.jsx --max-warnings=0",
+    "lint-fix": "yarn eslint src/ --ext .js,.jsx --fix"
+  },
+  "resolutions": {
+    "handlebars": "4.3.0",
+    "eslint-utils": "1.4.2",
+    "react-router-config/react-router": "5.0.1",
+    "react-scripts/typescript-eslint/eslint-plugin/tsutils/typescript": "3.7.0-dev.20190928",
+    "react-scripts/typescript-eslint/parser/eslint": "5.0.0",
+    "eslint-config-airbnb/eslint": "5.3.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn lint && yarn test"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "globalSetup": "./src/setupTests.js"
+  },
+  "devDependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.2",
+    "husky": "^3.1.0",
+    "prettier": "^1.18.2",
+    "react-test-renderer": "^16.8.6",
+    "redux-mock-store": "^1.5.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bulma": "^0.7.5",
+    "classnames": "^2.2.6",
+    "dayjs": "^1.8.16",
+    "final-form": "^4.18.5",
+    "final-form-arrays": "^3.0.2",
+    "final-form-calculate": "^1.3.1",
+    "history": "^4.9.0",
+    "lodash.debounce": "^4.0.8",
+    "lodash.flatten": "^4.4.0",
+    "lodash.groupby": "^4.6.0",
+    "lodash.identity": "^3.0.0",
+    "lodash.isnil": "^4.0.0",
+    "lodash.max": "^4.0.1",
+    "lodash.omit": "^4.5.0",
+    "lodash.omitby": "^4.6.0",
+    "lodash.pick": "^4.4.0",
+    "lodash.pickby": "^4.6.0",
+    "lodash.uniq": "^4.5.0",
+    "lodash.uniqby": "^4.7.0",
+    "lodash.without": "^4.4.0",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.8.3",
+    "rc-slider": "^8.7.1",
+    "react": "^16.8.6",
+    "react-big-calendar": "^0.22.0",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-day-picker": "^7.3.2",
+    "react-dom": "^16.8.6",
+    "react-dotdotdot": "^1.3.1",
+    "react-final-form": "^6.3.0",
+    "react-final-form-arrays": "^3.1.1",
+    "react-final-form-listeners": "^1.0.2",
+    "react-input-mask": "^2.0.4",
+    "react-redux": "^7.1.0",
+    "react-router-config": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "react-table": "^6.10.0",
+    "react-tooltip": "^3.11.1",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "uuid": "^3.3.3"
+  }
+}

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DropdownList /> renders correctly default props 1`] = `
+<ul
+  className="dropdown-content menu-list"
+>
+  <button
+    className="dropdown-item button base-button"
+    disabled={false}
+    id={null}
+    onClick={[Function]}
+    title=""
+    type="button"
+  >
+    
+    Бюджет
+  </button>
+  <button
+    className="dropdown-item button base-button"
+    disabled={false}
+    id={null}
+    onClick={[Function]}
+    title=""
+    type="button"
+  >
+    
+    Армия
+  </button>
+</ul>
+`;

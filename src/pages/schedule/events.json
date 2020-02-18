@@ -1,0 +1,66 @@
+[
+  {
+    "id": "0",
+    "title": "Спортивные танцы",
+    "allDay": "true",
+    "start": "Tue Sep 03 2019 00:00:00 GMT+0400",
+    "end": "Tue Sep 03 2019 23:59:59 GMT+0400",
+  "color": "orange"
+},
+{
+    "id": "1",
+    "title": "Настольных теннис",
+    "start": "Thu Sep 05 2019 13:00:00 GMT+0400",
+    "end": "Thu Sep 05 2019 14:00:00 GMT+0400",
+  "color": "magenta"
+},
+{
+    "id": "2",
+    "title": "Баскетбол",
+    "start": "Thu Sep 05 2019 14:00:00 GMT+0400",
+    "end": "Thu Sep 05 2019 15:00:00 GMT+0400",
+  "color": "red"
+},
+{
+    "id": "3",
+    "title": "Спортивные танцы",
+    "start": "Thu Sep 05 2019 15:00:00 GMT+0400",
+    "end": "Thu Sep 05 2019 16:00:00 GMT+0400",
+  "color": "purple"
+},
+{
+    "id": "4",
+    "title": "Футбол",
+    "start": "Thu Sep 05 2019 16:00:00 GMT+0400",
+    "end": "Thu Sep 05 2019 17:00:00 GMT+0400",
+  "color": "green"
+},
+{
+    "id": "5",
+    "title": "Футбол",
+    "start": "Sat Sep 07 2019 17:00:00 GMT+0400",
+    "end": "Sat Sep 07 2019 18:00:00 GMT+0400",
+  "color": "red"
+},
+{
+    "id": "6",
+    "title": "Футбол",
+    "start": "Mon Sep 10 2019 17:00:00 GMT+0400",
+    "end": "Mon Sep 10 2019 18:00:00 GMT+0400",
+  "color": "red"
+},
+{
+    "id": "7",
+    "title": "Футбол",
+    "start": "Wed Sep 12 2019 17:00:00 GMT+0400",
+    "end": "Wed Sep 12 2019 18:00:00 GMT+0400",
+  "color": "red"
+},
+{
+    "id": "8",
+    "title": "Баскетбол",
+    "start":"Fri Sep 14 2019 17:00:00 GMT+0400",
+    "end": "Fri Sep 14 2019 18:00:00 GMT+0400",
+  "color": "red"
+}
+]

@@ -1,0 +1,33 @@
+@import "styles/mixins";
+
+.training-info {
+  hr {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .time-stats_block + div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .time-stats_block + div > div {
+    flex-grow: 1;
+  }
+
+  .time-stats_block + div > div:first-child {
+    ul {
+      padding-top: 20px;
+    }
+  }
+
+  .time-stats_block + div > div + div {
+    margin-left: 20px;
+  }
+}
+
+.training-info > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

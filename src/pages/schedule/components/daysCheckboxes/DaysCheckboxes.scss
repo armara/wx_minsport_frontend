@@ -1,0 +1,21 @@
+
+.days-checkboxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+
+  li {
+    display: flex;
+    align-items: center;
+
+    .base-checkbox {
+      margin-top: 0;
+    }
+  }
+
+  li + li {
+    margin-top: 0;
+    margin-left: 14px;
+  }
+}

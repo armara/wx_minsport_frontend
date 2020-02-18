@@ -1,0 +1,18 @@
+@import "styles/mixins";
+
+.foundation-form {
+  display: flex;
+  flex-flow: column;
+
+  h4 {
+    @include form-label-text();
+  }
+
+  hr {
+    margin-bottom: 0;
+  }
+
+  .form-some-blocks > div {
+    min-width: 50%;
+  }
+}

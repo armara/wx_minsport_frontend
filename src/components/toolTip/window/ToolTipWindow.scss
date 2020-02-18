@@ -1,0 +1,37 @@
+@import 'styles/mixins';
+
+.react-tooltip {
+  font-size: $x-large;
+  font-weight: 600;
+  box-shadow: 1px 0px 4px -3px $brown-gray;
+  white-space: pre-wrap;
+
+  &.type-dark {
+    color: $evil-gray;
+    background-color: $whisper-gray;
+  }
+
+  &.place-right {
+    &:after {
+      border-right-color: $whisper-gray !important;
+    }
+  }
+
+  &.place-left {
+    &:after {
+      border-left-color: $whisper-gray !important;
+    }
+  }
+
+  &.place-top {
+    &:after {
+      border-top-color: $whisper-gray !important;
+    }
+  }
+
+  &.place-bottom {
+    &:after {
+      border-bottom-color: $whisper-gray !important;
+    }
+  }
+}

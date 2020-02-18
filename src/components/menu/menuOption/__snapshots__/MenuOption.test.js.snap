@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MenuOption /> renders correctly 1`] = `
+<li>
+  <span>
+    <i
+      className="black-avatar"
+    />
+  </span>
+  <a
+    href="/path"
+    onClick={[Function]}
+  >
+    Test line label
+  </a>
+</li>
+`;

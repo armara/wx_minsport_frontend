@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormField /> renders correctly default props 1`] = `
+<form
+  className="base-form"
+  onSubmit={[Function]}
+>
+  <div
+    className="form-field form-field_required"
+  >
+    <label
+      htmlFor="type"
+    >
+      Тип организации
+    </label>
+    <div
+      className="form-field_with-error"
+    >
+      <input
+        className="form-input base-input input"
+        disabled={false}
+        id="type"
+        items={
+          Array [
+            Object {
+              "id": 1,
+              "item": "Все типы организаций",
+            },
+          ]
+        }
+        menuId="foundation-type_dropdown"
+        name="type"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder=""
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+</form>
+`;

@@ -1,0 +1,78 @@
+@import "styles/mixins";
+
+.choice-list {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+
+  .choice-list_params {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    border-bottom: solid 1px $smoke-white;
+
+    .search-input {
+      border: none;
+      height: 50px;
+      display: flex;
+      flex-grow: 8;
+      align-items: center;
+      margin-left: -10px;
+
+      .input {
+        width: 100%;
+        height: 100%;
+        border: none;
+        padding-right: 14px;
+      }
+    }
+
+    .choice-list_params_all {
+      @include input-text();
+      border-left: 1px solid $smoke-white;
+      flex-grow: 1;
+      height: 40px;
+      padding-left: 14px;
+      display: flex;
+      align-items: center;
+
+      .base-checkbox {
+        margin-right: 7px;
+      }
+    }
+  }
+
+  .base-list {
+    li {
+      display: flex;
+      height: 60px;
+      align-items: center;
+      justify-content: flex-start;
+
+      div:last-child {
+        @include roboto-regular-text($small, 18px, $black);
+        margin-left: auto;
+        margin-right: 20px;
+      }
+
+      & > * + * {
+        margin-left: 20px;
+      }
+
+      & > span {
+        margin-left: 10px;
+        @include nav-header-text($small, '18px', $black);
+        font-weight: 500;
+      }
+    }
+
+    li + li {
+      margin-top: 0;
+    }
+  }
+
+  & > h5 {
+    border-top: solid 1px $smoke-white;
+    @include nav-header-text('14px', '60px', $soft-steel);
+  }
+}

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageHeader /> renders correctly default props 1`] = `
+<div
+  className="page-header"
+>
+  <h3>
+    Peter's Great Embassy
+  </h3>
+</div>
+`;

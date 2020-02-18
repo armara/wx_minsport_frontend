@@ -1,0 +1,46 @@
+@import 'styles/mixins';
+
+.avatar-block {
+  display: flex;
+  align-items: center;
+  min-height: 120px;
+
+  img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+
+  .icons {
+    display: flex;
+    margin-left: 15px;
+
+    i {
+      flex-wrap: nowrap;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+  }
+
+  .info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 1;
+
+    .fio-age {
+      display: flex;
+      flex-direction: column;
+      margin-left: 15px;
+
+      .fio {
+        @include text(12px, 60px, $black, 600);
+      }
+
+      .age {
+        margin-top: -20px;
+        @include table-text(12px, 2.5, $dusty-gray);
+      }
+    }
+  }
+}

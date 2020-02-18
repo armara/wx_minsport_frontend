@@ -1,0 +1,411 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Edit /> renders correctly default props 1`] = `
+<div
+  className="foundations-edit"
+>
+  <button
+    className="is-white back-button button base-button"
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      className="icon"
+    >
+      <i
+        className="ic-arrow-back"
+      />
+    </span>
+    Редактировать профиль организации
+  </button>
+  <div
+    className="base-container foundations-edit_container"
+  >
+    <h5
+      className="base-container_title"
+    >
+      Заполните необходимые поля
+    </h5>
+    <form
+      className="foundation-form base-form"
+      onSubmit={[Function]}
+    >
+      <div>
+        <div
+          className="form-field form-field_required"
+        >
+          <label
+            htmlFor="name"
+          >
+            Укажите название организации
+          </label>
+          <div
+            className="form-field_with-error"
+          >
+            <input
+              className="form-input base-input input"
+              disabled={false}
+              name="name"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder=""
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className="form-field form-field_required"
+        >
+          <label
+            htmlFor="type"
+          >
+            Тип организации
+          </label>
+          <div
+            className="form-field_with-error"
+          >
+            <div
+              className="dropdown"
+            >
+              <div
+                className="form-dropdown_trigger"
+                id="foundation-type_dropdown-trigger"
+              >
+                <button
+                  className="form-dropdown_button dropdown-trigger button base-button"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  
+                  <div />
+                  <span
+                    className="icon is-small"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="ic-keyboard-arrow-down"
+                    />
+                  </span>
+                </button>
+              </div>
+              <div
+                className="dropdown-menu"
+                id="foundation-type_dropdown"
+                role="menu"
+              >
+                <ul
+                  className="dropdown-content menu-list"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="form-field form-field_required"
+        >
+          <label
+            htmlFor="sport"
+          >
+            Вид спорта
+          </label>
+          <div
+            className="form-field_with-error"
+          >
+            <div
+              className="dropdown"
+            >
+              <div
+                className="form-dropdown_trigger"
+                id="foundation-sport-id_dropdown-trigger"
+              >
+                <button
+                  className="form-dropdown_button dropdown-trigger button base-button"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  
+                  <div />
+                  <span
+                    className="icon is-small"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="ic-keyboard-arrow-down"
+                    />
+                  </span>
+                </button>
+              </div>
+              <div
+                className="dropdown-menu"
+                id="foundation-sport-id_dropdown"
+                role="menu"
+              >
+                <ul
+                  className="dropdown-content menu-list"
+                >
+                  <button
+                    className="dropdown-item button base-button"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    
+                    
+                  </button>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="form-field form-field_required"
+        >
+          <label
+            htmlFor="area"
+          >
+            Площадка
+          </label>
+          <div
+            className="form-field_with-error"
+          >
+            <div
+              className="dropdown"
+            >
+              <div
+                className="form-dropdown_trigger"
+                id="foundation-area-id_dropdown-trigger"
+              >
+                <button
+                  className="form-dropdown_button dropdown-trigger button base-button"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  
+                  <div />
+                  <span
+                    className="icon is-small"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="ic-keyboard-arrow-down"
+                    />
+                  </span>
+                </button>
+              </div>
+              <div
+                className="dropdown-menu"
+                id="foundation-area-id_dropdown"
+                role="menu"
+              >
+                <ul
+                  className="dropdown-content menu-list"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div
+          className="form-some-blocks"
+        >
+          <div
+            className="form-field form-field_required"
+          >
+            <label
+              htmlFor="contractType"
+            >
+              Классификатор договора
+            </label>
+            <div
+              className="form-field_with-error"
+            >
+              <div
+                className="dropdown"
+              >
+                <div
+                  className="form-dropdown_trigger"
+                  id="foundation-contract_dropdown-trigger"
+                >
+                  <button
+                    className="form-dropdown_button dropdown-trigger button base-button"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    
+                    <div />
+                    <span
+                      className="icon is-small"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="ic-keyboard-arrow-down"
+                      />
+                    </span>
+                  </button>
+                </div>
+                <div
+                  className="dropdown-menu"
+                  id="foundation-contract_dropdown"
+                  role="menu"
+                >
+                  <ul
+                    className="dropdown-content menu-list"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="form-dates-range"
+          >
+            <div
+              className="form-field form-field_required"
+            >
+              <label
+                htmlFor="form-dates-range_from"
+              >
+                Дата заключения
+              </label>
+              <div
+                className="form-field_with-error"
+              >
+                <div
+                  className="DayPickerInput"
+                >
+                  <div
+                    className="calendar-input-field control has-icons-right"
+                  >
+                    <input
+                      className="form-input base-input input"
+                      name="fromDate"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onClick={[Function]}
+                      placeholder=""
+                      type="text"
+                      value="22.12.2016"
+                    />
+                    <span
+                      className="icon is-small is-right"
+                    >
+                      <i
+                        className="ic-calendar"
+                      />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="form-field form-field_required"
+            >
+              <label
+                htmlFor="form-dates-range_to"
+              >
+                Дата окончания
+              </label>
+              <div
+                className="form-field_with-error"
+              >
+                <div
+                  className="DayPickerInput"
+                >
+                  <div
+                    className="calendar-input-field control has-icons-right"
+                  >
+                    <input
+                      className="form-input base-input input"
+                      name="toDate"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onClick={[Function]}
+                      placeholder=""
+                      type="text"
+                      value="22.12.2016"
+                    />
+                    <span
+                      className="icon is-small is-right"
+                    >
+                      <i
+                        className="ic-calendar"
+                      />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="files-list"
+      >
+        <h4>
+          Файлы
+        </h4>
+        <ul
+          className="contract-files base-list"
+        >
+          <li
+            className=""
+          >
+            <span
+              className="file-row_file-block"
+            >
+              <i
+                className="ic-pdf"
+              />
+              <span>
+                
+              </span>
+            </span>
+            <button
+              className="file-row_button button base-button"
+              onClick={[Function]}
+              type="button"
+            >
+              
+              Удалить
+            </button>
+          </li>
+        </ul>
+        <button
+          className="inline-button button base-button"
+          onClick={[Function]}
+          type="button"
+        >
+          
+          Добавить еще файл
+        </button>
+        <input
+          multiple={false}
+          onChange={[Function]}
+          type="file"
+        />
+      </div>
+      <hr />
+      <div
+        className="form-control-buttons"
+      >
+        <button
+          className="control-buttons_cancel button base-button"
+          onClick={[Function]}
+          type="button"
+        >
+          
+          Отменить
+        </button>
+        <button
+          className="is-success control-button-save button base-button"
+          onClick={[Function]}
+          type="submit"
+        >
+          
+          Сохранить
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;

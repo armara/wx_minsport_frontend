@@ -1,0 +1,17 @@
+@import "styles/mixins";
+
+.table-cell-icon {
+  display: flex;
+  align-items: center;
+
+  i {
+    margin-right: 10px;
+  }
+
+  h4 {
+    @include medium-text(13px,20px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

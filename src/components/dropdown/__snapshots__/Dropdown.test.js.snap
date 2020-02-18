@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dropdown /> renders correctly default props 1`] = `
+<div
+  className="dropdown"
+  id="Peters Konigsberg Great Embassy"
+>
+  <div
+    className="dropdown-trigger"
+  >
+    <button
+      className="dropdown-trigger button base-button"
+      disabled={false}
+      id={null}
+      onClick={[Function]}
+      title=""
+      type="button"
+    >
+      
+      <div>
+        
+      </div>
+      <span
+        className="icon is-small"
+      >
+        <i
+          aria-hidden="true"
+          className="ic-keyboard-arrow-down"
+        />
+      </span>
+    </button>
+  </div>
+  <div
+    className="dropdown-menu"
+    role="menu"
+  >
+    <ul
+      className="dropdown-content menu-list"
+    >
+      <button
+        className="dropdown-item button base-button"
+        disabled={false}
+        id={null}
+        onClick={[Function]}
+        title=""
+        type="button"
+      >
+        
+        Бюджет
+      </button>
+      <button
+        className="dropdown-item button base-button"
+        disabled={false}
+        id={null}
+        onClick={[Function]}
+        title=""
+        type="button"
+      >
+        
+        Армия
+      </button>
+    </ul>
+  </div>
+</div>
+`;

@@ -1,0 +1,18 @@
+@import "styles/mixins";
+
+.search-input {
+  .input {
+    @include input-text();
+    box-shadow: none;
+    border-radius: 3px;
+    border: solid 1px $smoke-white;
+
+    & + .icon {
+      height: 100%;
+    }
+
+    & + span {
+      margin-left: 5px;
+    }
+  }
+}

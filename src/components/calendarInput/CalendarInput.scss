@@ -1,0 +1,21 @@
+.calendar-input-field {
+  span.icon.is-right {
+    height: 50px;
+  }
+}
+
+.DayPickerInput-Overlay {
+  width: 310px;
+
+  .DayPicker {
+    width: 100%;
+
+    .DayPicker-Day {
+      border-radius: 50%;
+      max-width: 40px;
+      max-height: 40px;
+      width: 40px;
+      height: 40px;
+    }
+  }
+}

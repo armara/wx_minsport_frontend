@@ -1,0 +1,47 @@
+@import "styles/mixins";
+
+.base-radio {
+  position: relative;
+
+  input {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  label {
+    line-height: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    & > .base-radio_dot {
+      &:before {
+        content: '';
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid $light-gray;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .base-radio_label {
+    @include medium-text('12px', '18px', $black);
+  }
+
+  input.base-radio_selected + .base-radio_dot {
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      background-color: $bright-blue;
+      width: 12px;
+      height: 12px;
+      top: 4px;
+      left: 4px;
+      border-radius: 50%;
+    }
+  }
+}

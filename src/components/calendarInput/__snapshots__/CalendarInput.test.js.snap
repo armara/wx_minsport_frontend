@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DayPickerInput /> renders correctly default props 1`] = `
+<div
+  className="DayPickerInput"
+>
+  <div
+    className="calendar-input-field control has-icons-right"
+  >
+    <input
+      autoComplete="off"
+      className="form-input"
+      name="name"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      onPaste={[Function]}
+      placeholder="дд.мм.гггг"
+      value=""
+    />
+    <span
+      className="icon is-small is-right"
+    >
+      <i
+        className="ic-calendar"
+      />
+    </span>
+  </div>
+</div>
+`;

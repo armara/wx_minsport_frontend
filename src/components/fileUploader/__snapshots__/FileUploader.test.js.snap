@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FileUploader /> renders correctly default props 1`] = `
+<div
+  className="file-uploader"
+>
+  <input
+    className="form-input base-input input"
+    disabled={true}
+    id="test"
+    name=""
+    onChange={[Function]}
+    placeholder=""
+    type="text"
+    value=""
+  />
+  <input
+    accept={null}
+    multiple={false}
+    onChange={[Function]}
+    type="file"
+  />
+  <button
+    className="grey-control-button button base-button"
+    disabled={false}
+    id={null}
+    onClick={[Function]}
+    title=""
+    type="button"
+  >
+    
+    Выбрать
+  </button>
+</div>
+`;

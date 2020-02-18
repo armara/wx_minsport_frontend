@@ -1,0 +1,46 @@
+@import "styles/mixins";
+
+.foundations-list {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+
+  .foundations-list_filters {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .foundations-list_filters_dropdown + .foundations-list_filters_dropdown {
+    margin-left: 11px;
+  }
+
+  .foundations-list_filters_types-trigger,
+  .foundations-list_filters_types-menu {
+    min-width: 220px;
+  }
+
+  .foundations-list_filters_types-trigger,
+  .foundations-list_filters_trigger {
+    button.is-white {
+      @include nav-header-text($small, '18px', $evil-gray);
+      width: 100%;
+    }
+  }
+
+  .foundations-list_filters_trigger,
+  .foundations-list_filters_menu {
+    min-width: 200px;
+  }
+
+  .foundations-list_search-input {
+    margin-left: auto;
+  }
+
+  .foundations-list_table {
+    flex-grow: 1;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+}

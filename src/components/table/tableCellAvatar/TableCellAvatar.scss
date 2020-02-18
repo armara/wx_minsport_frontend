@@ -1,0 +1,16 @@
+@import "styles/mixins";
+
+.table-cell-avatar {
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  h4 {
+    @include medium-text(13px, 20px);
+  }
+}

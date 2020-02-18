@@ -1,0 +1,64 @@
+@import "styles/mixins";
+
+.list-filters {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  min-height: 60px;
+
+  div.field {
+    margin-right: 5px;
+    margin-bottom: 0;
+
+    select, select:focus, select:hover {
+      border-color: white;
+      box-shadow: none;
+    }
+  }
+
+  .dropdown + .dropdown {
+    margin-left: 10px;
+  }
+
+  .dropdown {
+    .control {
+      .base-input {
+        @include nav-header-text('13px', '18px', $evil-gray);
+        width: 100%;
+        background-color: white;
+        padding-left: 0.75em;
+        border: none;
+
+        &::placeholder {
+          color: $red-gray;
+        }
+
+        &:hover {
+          background-color: whitesmoke;
+        }
+
+        &:focus {
+          background-color: whitesmoke;
+          color: $black;
+
+          &::placeholder {
+            color: $red-gray-light;
+          }
+        }
+      }
+
+      span.icon.is-left {
+        display: none;
+      }
+    }
+
+    .button + .button {
+      margin-top: 2px;
+    }
+  }
+
+  .filters-search {
+    margin-right: 20px;
+  }
+}

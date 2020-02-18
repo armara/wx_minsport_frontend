@@ -1,0 +1,113 @@
+@import "styles/mixins";
+
+.base-button {
+  cursor: pointer;
+
+  &.button {
+    .icon:first-child {
+      margin-right: 7px;
+    }
+  }
+
+  &.disabled {
+    opacity: 0.3;
+    outline: none;
+    border: none;
+  }
+
+  &.nav-green-button {
+    @include nav-header-text('12px','18px',$white);
+    background-color: $nestea-light;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    &:hover,
+    &:focus {
+      background-color: $nestea;
+      color: $white;
+    }
+  }
+
+  &.grey-button {
+    @include text(9px, normal, $white, normal);
+    background-color: $soft-steel;
+    border-radius: 4px;
+    height: 30px;
+    width: 135px;
+  }
+
+  &.nav-grey-button {
+    @include nav-header-text('9px','18px',$white);
+    background-color: $soft-steel;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    &:hover,
+    &:focus {
+      color: $white;
+    }
+  }
+
+  &.inline-button {
+    @include add-inline-button();
+  }
+
+  &.grey-control-button {
+    background-color: $soft-steel;
+    margin-left: 10px;
+  }
+
+  &.control-button-save {
+    background-color: $nestea-light;
+
+    &:hover {
+      background-color: $nestea;
+    }
+  }
+
+  &.control-buttons_cancel {
+    background-color: $fog-gray;
+
+    &:hover {
+      background-color: $brown-gray-light;
+    }
+  }
+
+  &.control-buttons_cancel,
+  &.grey-control-button,
+  &.control-button-save {
+    @include control-button();
+  }
+
+  &.grey-control-button:hover,
+  &.grey-control-button:focus,
+  &.control-button-save:hover,
+  &.control-button-save:focus,
+  &.control-buttons_cancel:hover,
+  &.control-buttons_cancel:focus {
+    color: $white;
+  }
+
+  &.transparent-button {
+    @include nav-header-text('12px','18px',$black);
+    background-color: $white;
+    border: none;
+  }
+  
+	&.btn-add-training,
+	&.btn-add-event {
+	  border: none;
+	  @include page-header-text('13px','unset');    
+	}
+
+	&.btn-add-training,
+	&.btn-add-training:hover {
+	  color: $android-green;    
+	}
+	&.btn-add-event,
+	&.btn-add-event:hover {
+	  color: $light-amber;
+	}
+}

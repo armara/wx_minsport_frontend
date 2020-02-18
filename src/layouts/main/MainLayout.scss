@@ -1,0 +1,23 @@
+@import "styles/colors";
+
+.app {
+  display: flex;
+  flex-wrap: wrap;
+
+  .app-panel {
+    display: flex;
+    flex-grow: 1;
+  }
+
+  .app-content {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background: $white;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    // full width - menu - margins
+    min-height: calc(100vh - 130px);
+  }
+}

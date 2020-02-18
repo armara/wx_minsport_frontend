@@ -1,0 +1,66 @@
+@import 'styles/mixins';
+
+.registry-person-card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+
+  .btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  hr {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .columns {
+    .column {
+      .container_title {
+        @include text(14px, 60px, $black, 600);
+      }
+    }
+
+    .base-container + .base-container {
+      margin-top: 20px;
+    }
+
+    .column:last-child {
+      > div {
+        height: 100%;
+        padding-right: 5px;
+
+        .tabs a {
+          border-bottom-width: 2px;
+        }
+
+        .base-list {
+          padding-right: 15px;
+
+          li > div {
+            img {
+              width: 30px;
+            }
+            h4 {
+              @include medium-text($small, 60px, $black);
+            }
+          }
+          li > span {
+            @include roboto-regular-text($small, 60px, $evil-gray);
+          }
+
+          .command-rows {
+            h4 {
+              @include roboto-regular-text($small, 30px, $evil-gray);
+            }
+            span {
+              @include medium-text($small, 30px, $black);
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchInput /> renders correctly default props 1`] = `
+<div
+  className="search-input control has-icons-left"
+>
+  <input
+    className="input is-small base-input input"
+    disabled={false}
+    onChange={[Function]}
+    placeholder="Поиск"
+    type="text"
+    value="test"
+  />
+  <span
+    className="icon is-small is-left"
+  >
+    <i
+      className="ic-search"
+    />
+  </span>
+</div>
+`;

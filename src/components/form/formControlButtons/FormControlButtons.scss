@@ -1,0 +1,9 @@
+.form-control-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  > button.base-button {
+    width: auto;
+  }
+}

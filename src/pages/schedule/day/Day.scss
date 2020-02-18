@@ -1,0 +1,30 @@
+.schedule-day {
+  .schedule-calendar .rbc-time-view .rbc-events-container .rbc-event,
+  .schedule-calendar .rbc-time-view .rbc-time-header-content .rbc-allday-cell .rbc-event-allday {
+    border-left: 2px solid;
+    display: flex;
+    flex-direction: row;
+
+    .rbc-event-label,
+    .rbc-event-content {
+      font-size: 12px;
+      line-height: 2.5;
+    }
+
+    .rbc-event-label {
+      padding-right: 9px;
+    }
+
+    .event-title-wrap {
+      justify-content: flex-end;
+      flex-direction: row-reverse;
+
+      span:first-of-type {
+        padding-left: 9px;
+      }
+      span:last-of-type {
+        padding-left: 18px;
+      }
+    }
+  }
+}

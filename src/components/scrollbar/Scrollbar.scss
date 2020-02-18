@@ -1,0 +1,17 @@
+@import "styles/mixins";
+
+.scrollbar_vertical-track {
+  background-color: $lighter-gray;
+  height: 100%;
+  right: 0;
+  opacity: 0.6;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+
+.scrollbar_vertical-thumb {
+  background-color: $black;
+  border-radius: 6px;
+  opacity: 0.6;
+  cursor: pointer;
+}

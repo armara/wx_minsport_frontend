@@ -1,0 +1,15 @@
+@import 'styles/mixins';
+
+.back-button {
+  @include nav-header-text('16px', '18px', $black);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 60px;
+  width: fit-content;
+
+  &.button {
+    span.icon:first-child {
+      margin-right: 10px;
+    }
+  }
+}

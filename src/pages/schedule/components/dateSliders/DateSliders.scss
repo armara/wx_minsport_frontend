@@ -1,0 +1,28 @@
+.moth-slider,
+.week-slider {
+  display: flex;
+  padding-right: 0.75em;
+  padding-left: 0.75em;
+
+  h5 {
+    text-transform: capitalize;
+    span {
+      min-width: 110px;
+      text-align: center;
+    }
+  }
+
+  .btn-prev,
+  .btn-next {
+    padding: 0;
+    height: 24px;
+  }
+  .ic-arrow-back,
+  .ic-arrow-forward {
+    height: 22px;
+  }
+}
+
+.week-slider h5 > span {
+  min-width: 176px;
+}

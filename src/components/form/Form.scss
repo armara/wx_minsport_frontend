@@ -1,0 +1,22 @@
+@import "styles/mixins";
+
+.base-form {
+  display: flex;
+  flex-flow: column;
+
+  h4 {
+    @include form-label-text();
+  }
+}
+
+.form-some-blocks {
+  display: flex;
+
+  & > div {
+    flex-grow: 1;
+  }
+
+  & > div + div {
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,434 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FoundationForm /> renders correctly default props 1`] = `
+<form
+  className="foundation-form base-form"
+  onSubmit={[Function]}
+>
+  <div>
+    <div
+      className="form-field form-field_required"
+    >
+      <label
+        htmlFor="tin"
+      >
+        ИНН организации (или физического лица)
+      </label>
+      <div
+        className="form-field_with-error"
+      >
+        <input
+          accept={null}
+          className="form-input"
+          disabled={false}
+          id="tin"
+          name="tin"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          placeholder="XXXX-XXXXXX XX"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="form-field form-field_required"
+    >
+      <label
+        htmlFor="legalData"
+      >
+        Юридическое название договора
+      </label>
+      <div
+        className="form-field_with-error"
+      >
+        <input
+          className="form-input base-input input"
+          disabled={false}
+          id="legalData"
+          name="legalData"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Договор № 666"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="form-field form-field_required"
+    >
+      <label
+        htmlFor="sport"
+      >
+        Вид спорта
+      </label>
+      <div
+        className="form-field_with-error"
+      >
+        <div
+          className="form-filter-dropdown-with-value"
+        >
+          <div
+            className="dropdown"
+            id="foundation-sport-id_dropdown"
+          >
+            <div
+              className="dropdown-trigger"
+            >
+              <p
+                className="control has-icons-right has-icons-left input-trigger"
+              >
+                <input
+                  className="is-small base-input input"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  placeholder="Введите вид спорта"
+                  type="text"
+                  value=""
+                />
+                <span
+                  className="icon is-small is-left"
+                >
+                  <i
+                    className="ic-place"
+                  />
+                </span>
+                <span
+                  className="icon is-small is-right"
+                >
+                  <i
+                    className="ic-keyboard-arrow-down"
+                  />
+                </span>
+              </p>
+            </div>
+            <div
+              className="dropdown-menu"
+              role="menu"
+            >
+              <ul
+                className="dropdown-content menu-list"
+              >
+                <span
+                  className="dropdown-item dropdown-item_empty"
+                >
+                  Виды спортов не найдены
+                </span>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-field form-field_required"
+    >
+      <label
+        htmlFor="area"
+      >
+        Площадка
+      </label>
+      <div
+        className="form-field_with-error"
+      >
+        <div
+          className="form-filter-dropdown-with-value"
+        >
+          <div
+            className="dropdown"
+            id="foundation-area-id_dropdown"
+          >
+            <div
+              className="dropdown-trigger"
+            >
+              <p
+                className="control has-icons-right has-icons-left input-trigger"
+              >
+                <input
+                  className="is-small base-input input"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  placeholder="Введите название площадки"
+                  type="text"
+                  value=""
+                />
+                <span
+                  className="icon is-small is-left"
+                >
+                  <i
+                    className="ic-place"
+                  />
+                </span>
+                <span
+                  className="icon is-small is-right"
+                >
+                  <i
+                    className="ic-keyboard-arrow-down"
+                  />
+                </span>
+              </p>
+            </div>
+            <div
+              className="dropdown-menu"
+              role="menu"
+            >
+              <ul
+                className="dropdown-content menu-list"
+              >
+                <span
+                  className="dropdown-item dropdown-item_empty"
+                >
+                  Площадки не найдены
+                </span>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-some-blocks"
+    >
+      <div
+        className="form-field form-field_required"
+      >
+        <label
+          htmlFor="contractType"
+        >
+          Классификатор договора
+        </label>
+        <div
+          className="form-field_with-error"
+        >
+          <div
+            className="form-filter-dropdown-with-value"
+          >
+            <div
+              className="dropdown"
+              id="foundation-contract_dropdown"
+            >
+              <div
+                className="dropdown-trigger"
+              >
+                <p
+                  className="control has-icons-right has-icons-left input-trigger"
+                >
+                  <input
+                    className="is-small base-input input"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    placeholder="Введите название площадки"
+                    type="text"
+                    value=""
+                  />
+                  <span
+                    className="icon is-small is-left"
+                  >
+                    <i
+                      className="ic-place"
+                    />
+                  </span>
+                  <span
+                    className="icon is-small is-right"
+                  >
+                    <i
+                      className="ic-keyboard-arrow-down"
+                    />
+                  </span>
+                </p>
+              </div>
+              <div
+                className="dropdown-menu"
+                role="menu"
+              >
+                <ul
+                  className="dropdown-content menu-list"
+                >
+                  <span
+                    className="dropdown-item dropdown-item_empty"
+                  >
+                    Площадки не найдены
+                  </span>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="form-dates-range"
+      >
+        <div
+          className="form-field form-field_required"
+        >
+          <label
+            htmlFor="fromDate"
+          >
+            Дата заключения
+          </label>
+          <div
+            className="form-field_with-error"
+          >
+            <div
+              className="DayPickerInput"
+            >
+              <div
+                className="calendar-input-field control has-icons-right"
+              >
+                <input
+                  autoComplete="off"
+                  className="form-input"
+                  name="fromDate"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseDown={[Function]}
+                  onPaste={[Function]}
+                  placeholder="01.06.2001"
+                  value="24.12.2019"
+                />
+                <span
+                  className="icon is-small is-right"
+                >
+                  <i
+                    className="ic-calendar"
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="form-field form-field_required"
+        >
+          <label
+            htmlFor="toDate"
+          >
+            Дата окончания
+          </label>
+          <div
+            className="form-field_with-error"
+          >
+            <div
+              className="DayPickerInput"
+            >
+              <div
+                className="calendar-input-field control has-icons-right"
+              >
+                <input
+                  autoComplete="off"
+                  className="form-input"
+                  name="toDate"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseDown={[Function]}
+                  onPaste={[Function]}
+                  placeholder="30.08.2001"
+                  value="24.12.2019"
+                />
+                <span
+                  className="icon is-small is-right"
+                >
+                  <i
+                    className="ic-calendar"
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div
+      className="form-field"
+    >
+      <label
+        htmlFor="description"
+      >
+        Описание договора
+      </label>
+      <div
+        className=""
+      >
+        <input
+          className="form-input base-input input"
+          disabled={false}
+          id="description"
+          name="description"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Договор на обслуживание школы олимпийского резерва на время летних сборов"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="files-list"
+  >
+    <h4>
+      Файлы
+    </h4>
+    <button
+      className="inline-button button base-button"
+      disabled={false}
+      id={null}
+      onClick={[Function]}
+      title=""
+      type="button"
+    >
+      
+      Добавить еще файл
+    </button>
+    <input
+      accept="application/pdf"
+      multiple={false}
+      onChange={[Function]}
+      type="file"
+    />
+  </div>
+  <hr />
+  <div
+    className="form-control-buttons"
+  >
+    <button
+      className="control-buttons_cancel button base-button"
+      disabled={false}
+      id={null}
+      onClick={[Function]}
+      title=""
+      type="button"
+    >
+      
+      Отменить
+    </button>
+    <button
+      className="is-success control-button-save button base-button"
+      disabled={false}
+      id={null}
+      onClick={[Function]}
+      title=""
+      type="submit"
+    >
+      
+      Добавить
+    </button>
+  </div>
+</form>
+`;

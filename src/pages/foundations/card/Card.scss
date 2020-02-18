@@ -1,0 +1,37 @@
+@import "styles/mixins";
+
+.foundation-card {
+  hr {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  .foundation-card_content {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+    div:first-child {
+      div {
+        .base-list:first-child {
+          padding-top: 20px;
+        }
+      }
+    }
+  }
+
+  .foundation-card_content > div {
+    flex-grow: 1;
+    max-width: 55%;
+  }
+
+  .foundation-card_content > div + div {
+    margin-left: 20px;
+  }
+
+  .foundation-card_content > div:last-child {
+    ul {
+      padding-top: 0;
+    }
+  }
+}

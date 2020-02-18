@@ -1,0 +1,22 @@
+@import "styles/mixins";
+
+.train-zone-container {
+  background-color: $pale-gray;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h4 {
+      @include roboto-regular-text(12px, 18px, $evil-gray);
+    }
+
+    span {
+      @include nav-header-text('12px', '18px', $black);
+    }
+  }
+}

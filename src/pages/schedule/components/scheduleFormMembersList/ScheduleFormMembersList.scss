@@ -1,0 +1,27 @@
+
+.event-visitors-list {
+  li {
+    display: flex;
+    flex-flow: row;
+
+    .base-radio {
+      flex-grow: 1;
+      min-width: 50%;
+      max-width: 50%;
+      height: 20px;
+
+      .base-radio_dot:after {
+        top: 3px;
+      }
+    }
+
+    .event-members_item_sport {
+      flex-grow: 1;
+      min-width: 50%;
+      max-width: 50%;
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between;
+    }
+  }
+}

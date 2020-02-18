@@ -1,0 +1,54 @@
+@import "styles/mixins";
+
+.base-list {
+  .base-list_not-found {
+    font-style: italic;
+  }
+
+  hr {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  li + li {
+    margin-top: 15px;
+  }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+
+    h4 {
+      @include roboto-regular-text($small, 18px, $evil-gray);
+      display: flex;
+      align-items: center;
+    }
+
+    & > div {
+      display: flex;
+
+      img {
+        margin-right: 10px;
+      }
+    }
+
+    & > span {
+      @include nav-header-text($small, '18px', $black);
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.tabs-list {
+  padding-top: 0;
+
+  li {
+    height: 45px;
+  }
+
+  li + li {
+    margin-top: 0;
+  }
+}

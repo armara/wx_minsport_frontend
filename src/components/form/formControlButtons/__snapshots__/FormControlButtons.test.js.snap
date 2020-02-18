@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormControlButtons /> renders correctly default props 1`] = `
+<div
+  className="form-control-buttons"
+>
+  <button
+    className="control-buttons_cancel button base-button"
+    disabled={false}
+    id={null}
+    onClick={[Function]}
+    title=""
+    type="button"
+  >
+    
+    Отмена
+  </button>
+  <button
+    className="is-success control-button-save button base-button"
+    disabled={false}
+    id={null}
+    onClick={[Function]}
+    title=""
+    type="submit"
+  >
+    
+    Сохранить
+  </button>
+</div>
+`;

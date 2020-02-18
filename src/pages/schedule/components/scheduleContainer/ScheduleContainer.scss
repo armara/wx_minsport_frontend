@@ -1,0 +1,90 @@
+@import 'styles/mixins';
+
+.schedule-container {
+  border: 1px solid $smoke-white;
+  border-radius: 6px;
+
+  .schedule-header,
+  .schedule-day-subheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 20px;
+    border-bottom: 1px solid $smoke-white;
+
+    .schedule-menu {
+      display: flex;
+      align-items: center;
+
+      h5,
+      button.dropdown-trigger > div {
+        @include nav-header-text($small, 'unset', $evil-gray);
+        display: flex;
+        align-items: center;
+      }
+
+      .control.has-icons-right {
+        .icon {
+          z-index: unset;
+        }
+      }
+
+      .dropdown {
+        .dropdown-item {
+          @include nav-header-text($small, 'unset', $brown-gray);
+          height: auto;
+        }
+        .dropdown-trigger {
+          min-width: 120px;
+          justify-content: center;
+        }
+      }
+    }
+
+    .schedule-toolbar {
+      display: flex;
+
+      .schedule-toolbar-link {
+        @include nav-header-text($large, '6', $red-gray);
+        padding: 0 5px;
+      }
+      .schedule-toolbar-link:hover {
+        color: $red-gray-dark;
+      }
+      .schedule-toolbar-link.active {
+        color: $sky-blue;
+      }
+    }
+  }
+
+  .schedule-day-subheader {
+    font-size: $small;
+    text-transform: uppercase;
+    color: $red-gray-light;
+    letter-spacing: 1.25px;
+    font-weight: bold;
+  }
+
+  .base-button.button .icon:first-child {
+    margin: 0;
+  }
+
+  .dropdown {
+    .button {
+      @include nav-header-text($small, '18px', $evil-gray);
+      width: 100%;
+      background-color: white;
+      border-color: transparent;
+
+      &:focus {
+        box-shadow: none;
+      }
+
+      &:hover {
+        background-color: whitesmoke;
+        color: #0a0a0a;
+      }
+    }
+  }
+}

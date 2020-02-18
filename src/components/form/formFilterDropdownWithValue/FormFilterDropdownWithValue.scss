@@ -1,0 +1,34 @@
+@import "styles/mixins";
+
+.form-filter-dropdown-with-value {
+  .dropdown {
+    width: 100%;
+
+    .dropdown-trigger {
+      width: inherit;
+    }
+
+    .control {
+      width: inherit;
+
+      .base-input {
+        @include form-input();
+        cursor: pointer;
+        padding-left: 0.75em;
+        padding-right: 2.25em;
+
+        &:focus {
+          cursor: text;
+        }
+      }
+
+      .icon.is-left {
+        display: none;
+      }
+
+      .icon.is-right {
+        height: 4.25em;
+      }
+    }
+  }
+}

@@ -1,0 +1,278 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Position /> Should render correctly 1`] = `
+<form
+  className="base-form"
+  onSubmit={[Function]}
+>
+  <div
+    className="base-container"
+  >
+    <h5
+      className="base-container_title"
+    >
+      Должности
+    </h5>
+    <div
+      className="form-positions-field"
+    >
+      <div
+        className="form-field form-field_required"
+      >
+        <label
+          htmlFor="positions[0].sport"
+        >
+          Вид спорта
+        </label>
+        <div
+          className="form-field_with-error"
+        >
+          <div
+            className="form-filter-dropdown-with-value"
+          >
+            <div
+              className="dropdown"
+              id="position-sport-0"
+            >
+              <div
+                className="dropdown-trigger"
+              >
+                <p
+                  className="control has-icons-right has-icons-left input-trigger"
+                >
+                  <input
+                    className="is-small base-input input"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    placeholder="Введите вид спорта"
+                    type="text"
+                    value=""
+                  />
+                  <span
+                    className="icon is-small is-left"
+                  >
+                    <i
+                      className="ic-place"
+                    />
+                  </span>
+                  <span
+                    className="icon is-small is-right"
+                  >
+                    <i
+                      className="ic-keyboard-arrow-down"
+                    />
+                  </span>
+                </p>
+              </div>
+              <div
+                className="dropdown-menu"
+                role="menu"
+              >
+                <ul
+                  className="dropdown-content menu-list"
+                >
+                  <button
+                    className="dropdown-item button base-button"
+                    disabled={false}
+                    id={null}
+                    onClick={[Function]}
+                    title=""
+                    type="button"
+                  >
+                    
+                    Хоккей
+                  </button>
+                  <button
+                    className="dropdown-item button base-button"
+                    disabled={false}
+                    id={null}
+                    onClick={[Function]}
+                    title=""
+                    type="button"
+                  >
+                    
+                    Футбол
+                  </button>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="form-field"
+      >
+        <label
+          htmlFor="positions[0].discipline"
+        >
+          Дисциплина
+        </label>
+        <div
+          className=""
+        >
+          <div
+            className="form-filter-dropdown-with-value"
+          >
+            <div
+              className="dropdown"
+              id="position-discipline-0"
+            >
+              <div
+                className="dropdown-trigger"
+              >
+                <p
+                  className="control has-icons-right has-icons-left input-trigger"
+                >
+                  <input
+                    className="is-small base-input input"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    placeholder="Введите название дисциплины"
+                    type="text"
+                    value=""
+                  />
+                  <span
+                    className="icon is-small is-left"
+                  >
+                    <i
+                      className="ic-place"
+                    />
+                  </span>
+                  <span
+                    className="icon is-small is-right"
+                  >
+                    <i
+                      className="ic-keyboard-arrow-down"
+                    />
+                  </span>
+                </p>
+              </div>
+              <div
+                className="dropdown-menu"
+                role="menu"
+              >
+                <ul
+                  className="dropdown-content menu-list"
+                >
+                  <button
+                    className="dropdown-item button base-button"
+                    disabled={false}
+                    id={null}
+                    onClick={[Function]}
+                    title=""
+                    type="button"
+                  >
+                    
+                    Любая дисциплина
+                  </button>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="form-field form-field_required"
+      >
+        <label
+          htmlFor="positions[0].position"
+        >
+          Должность в спорте
+        </label>
+        <div
+          className="form-field_with-error"
+        >
+          <div
+            className="form-filter-dropdown-with-value"
+          >
+            <div
+              className="dropdown"
+              id="position-position-0"
+            >
+              <div
+                className="dropdown-trigger"
+              >
+                <p
+                  className="control has-icons-right has-icons-left input-trigger"
+                >
+                  <input
+                    className="is-small base-input input"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    placeholder="Введите название должности в спорте"
+                    type="text"
+                    value=""
+                  />
+                  <span
+                    className="icon is-small is-left"
+                  >
+                    <i
+                      className="ic-place"
+                    />
+                  </span>
+                  <span
+                    className="icon is-small is-right"
+                  >
+                    <i
+                      className="ic-keyboard-arrow-down"
+                    />
+                  </span>
+                </p>
+              </div>
+              <div
+                className="dropdown-menu"
+                role="menu"
+              >
+                <ul
+                  className="dropdown-content menu-list"
+                >
+                  <button
+                    className="dropdown-item button base-button"
+                    disabled={false}
+                    id={null}
+                    onClick={[Function]}
+                    title=""
+                    type="button"
+                  >
+                    
+                    Pos1
+                  </button>
+                  <button
+                    className="dropdown-item button base-button"
+                    disabled={false}
+                    id={null}
+                    onClick={[Function]}
+                    title=""
+                    type="button"
+                  >
+                    
+                    Pos2
+                  </button>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <button
+        className="inline-button button base-button"
+        disabled={false}
+        id={null}
+        onClick={[Function]}
+        title=""
+        type="button"
+      >
+        
+        Добавить должность
+      </button>
+    </div>
+  </div>
+</form>
+`;

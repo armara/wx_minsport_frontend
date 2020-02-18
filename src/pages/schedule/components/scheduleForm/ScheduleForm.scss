@@ -1,0 +1,66 @@
+@import 'styles/mixins';
+
+.schedule-form {
+  hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .base-container + .base-container {
+    margin-left: 20px;
+  }
+
+  .form-some-blocks > div {
+    width: 50%;
+  }
+
+  .form-some-blocks > div + div {
+    margin-left: 20px;
+  }
+
+  .form-some-blocks.flex-wrap-wrap {
+    flex-wrap: wrap;
+    
+    & > div + div {
+      margin-left: 1px;
+    }
+  }
+
+  button.dropdown-item {
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 0;
+
+    & > img {
+      height: 30px;
+      margin-right: 10px;
+    }
+  }
+
+  button.dropdown-trigger > div {
+    display: flex;
+    align-items: center;
+    height: 40px;
+
+    & > img {
+      height: 30px;
+      margin-right: 10px;
+    }
+  }
+
+  .days-checkboxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .days-checkboxes_row {
+      margin-top: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .days-checkboxes_row + .days-checkboxes_row {
+      margin-left: 14px;
+    }
+  }
+}

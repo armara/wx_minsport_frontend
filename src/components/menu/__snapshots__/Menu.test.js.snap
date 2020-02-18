@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> renders snapshot correctly with default privateRoute 1`] = `
+<aside
+  className="app-menu"
+>
+  <h5>
+    Навигация
+  </h5>
+  <ul
+    className="menu-list"
+  >
+    <li>
+      <span />
+      <a
+        href="/facilities"
+        onClick={[Function]}
+      >
+        Главная
+      </a>
+    </li>
+    <li>
+      <span />
+      <a
+        href="/facilities/foundations"
+        onClick={[Function]}
+      >
+        Договоры
+      </a>
+    </li>
+    <li>
+      <span />
+      <a
+        href="/facilities/schedule"
+        onClick={[Function]}
+      >
+        Расписание
+      </a>
+    </li>
+    <li>
+      <span />
+      <a
+        href="/facilities/registry/sportsmens"
+        onClick={[Function]}
+      >
+        Клиенты
+      </a>
+    </li>
+    <li>
+      <span />
+      <a
+        href="/facilities/registry/coaches"
+        onClick={[Function]}
+      >
+        Тренеры
+      </a>
+    </li>
+    <li>
+      <span />
+      <a
+        href="/facilities/groups"
+        onClick={[Function]}
+      >
+        Группы
+      </a>
+    </li>
+    <li>
+      <span />
+      <a
+        href="/facilities/abonnements"
+        onClick={[Function]}
+      >
+        Абонементы
+      </a>
+    </li>
+  </ul>
+</aside>
+`;
+
+exports[`<Menu /> renders snapshot correctly without specified privateRoute 1`] = `
+<aside
+  className="app-menu"
+>
+  <h5>
+    Навигация
+  </h5>
+  <ul
+    className="menu-list"
+  >
+    <li>
+      <span />
+      <a
+        href="/facilities"
+        onClick={[Function]}
+      >
+        Главная
+      </a>
+    </li>
+    <li>
+      <span />
+      <a
+        href="/facilities/foundations"
+        onClick={[Function]}
+      >
+        Договоры
+      </a>
+    </li>
+    <li>
+      <span />
+      <a
+        href="/facilities/schedule"
+        onClick={[Function]}
+      >
+        Расписание
+      </a>
+    </li>
+    <li>
+      <span />
+      <a
+        href="/facilities/registry/sportsmens"
+        onClick={[Function]}
+      >
+        Клиенты
+      </a>
+    </li>
+    <li>
+      <span />
+      <a
+        href="/facilities/registry/coaches"
+        onClick={[Function]}
+      >
+        Тренеры
+      </a>
+    </li>
+    <li>
+      <span />
+      <a
+        href="/facilities/groups"
+        onClick={[Function]}
+      >
+        Группы
+      </a>
+    </li>
+    <li>
+      <span />
+      <a
+        href="/facilities/abonnements"
+        onClick={[Function]}
+      >
+        Абонементы
+      </a>
+    </li>
+  </ul>
+</aside>
+`;

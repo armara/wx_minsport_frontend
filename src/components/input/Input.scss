@@ -1,0 +1,9 @@
+@import "styles/mixins";
+
+.form-input {
+  @include form-input();
+
+  &::placeholder {
+    color: $red-gray;
+  }
+}
